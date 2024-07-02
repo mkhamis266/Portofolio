@@ -9,6 +9,8 @@ contactForm.addEventListener('submit', function (e) {
 
   let bodyMessage = `
     Full Name: ${senderName.value} <br />
+    Email: ${from.value} <br />
+    <br />
     ${message.value}
     `;
 
@@ -18,7 +20,7 @@ contactForm.addEventListener('submit', function (e) {
     Username: 'mahmkhamis153@gmail.com',
     Password: '9DDB7A1361A8E7DCA8934C956ED37AB58718',
     To: 'ghosthooda@gmail.com',
-    From: from.value,
+    From: 'm.khamis22@outlook.com',
     Subject: subject.value,
     Body: bodyMessage,
   })
